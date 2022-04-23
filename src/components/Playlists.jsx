@@ -30,6 +30,7 @@ export default function Playlists({ handlePlaylist }) {
   };
   return (
     <Container>
+      <div>
       <ul>
         {playlists.map(({ name, id }) => {
           return (
@@ -42,6 +43,7 @@ export default function Playlists({ handlePlaylist }) {
           );
         })}
       </ul>
+      </div>
     </Container>
   );
 }

@@ -23,12 +23,14 @@ export default function Login() {
     )}&response_type=token&show_dialog=true`;
   };
   return (
-    <Container>
+    <Container data-testid="test-pageLogin">
+      <div data-testid = "test-login">
       <img
         src="src\components\img\spotify.png"
         alt="spotify"
       />
       <button onClick={handleClick}>Connect Spotify</button>
+      </div>
     </Container>
   );
 }
@@ -41,7 +43,7 @@ const Container = styled.div`
   height: 100vh;
   width: 100vw;
   background: linear-gradient(transparent, rgba(0, 0, 0, 1));
-  background-color: rgb(170 145 39);
+  background-color: rgb(32, 87, 100);
   gap: 5rem;
   img {
     height: 20vh;

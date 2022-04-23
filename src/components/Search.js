@@ -97,7 +97,7 @@ export default function Search({ searchBackground }) {
 
   return (
     <Container searchBackground={searchBackground}>
-      <div className="search__bar">
+      <div className="search__bar" data-testid="test-search">
         <FaSearch />
         <input
           type="text"
