@@ -28,4 +28,4 @@ Untuk dapat menjalankan aplikasi terlebih dahulu kita menginstall aplikasi diman
 6. Kembali ke terminal pada text editor, jalankan perintah
    > npm start
    > Maka aplikasi dapat anda jalankan pada komputer anda.
-7. Aplikasi ini juga sudah di deploy dimana dapat diakses melalui link url berikut ini "".
+7. Aplikasi ini juga sudah di deploy dimana dapat diakses melalui link url berikut ini "https://final-project-gigih-2-0.vercel.app/".
